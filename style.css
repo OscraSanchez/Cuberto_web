@@ -1,29 +1,84 @@
-.me {
-    padding-left: 25%;
-    padding-right: 25%;
-}
+
+/*Index de clases:
+    bo: Controla el tamaño del primer DIV (Mobile development)
+    chala: Controla la configuracion del titulo (Grow your business ...)
+    raaw: Controla el color del fondo del primer apartado
+    Help: Controla los subtitulos (Helps millions ...), tamaño y color
+    mini: Controla el tamaño de los pies de seccion (branding, desing, mobile, product ...)
+    lol: Controla los margenes de los parrafos de 2 hasta el 3
+    LOL: Controla los margenes del primer parrafo
+    Nati: Controla la configuracion de las imagenes
+    mas: Controla el tamoño de los encabezados de seccion (Sleepiest ...)
+    Lucy: Controla el color del fondo del segondo parrafo
+    Luciii: Controla el color del fondo del tercer parrafo
+    MrPopo: Controla el color del fondo y color de letra del parrafo final
+    peke: Controla el tamaño de las ultimas 4 columnas (Product Features ...)
+    Naty, Naty2, Naty3: Controlan los margenes de las columnas del ultimo parrafo
+*/
+
 .bo {
-    font-size: 15px;
+    font-size: 25px;
 }
 .chala {
     color: #319494;
+    font-size: 60px;
 }
 .raaw {
-    background-color: #F5EEF4;
+    background-color: #F5EEF5;
     
 }
 .Help {
-    font-size: 36px;
+    font-size: 48px;
     color: #808080;
 }
+.mini {
+    font-size: 20px;
+}
 .lol {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 .LOL {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 .Nati {
-    width: 75%;
+    width: 85%;
+    margin-top: 12%;
+    margin-left: 9%;
+    margin-bottom: 12%;
+    border-radius: 5px;
+}
+.mas {
+    font-size: 30px;
+}
+.Lucy {
+    background-color: #FAF5F3;
+}
+.Luciii {
+    background-color: #F2F9F8;
+}
+.MrPopo {
+    background-color: black;
+    color: white;
+}
+.peke {
+    font-size: 10px;
+}
+.Naty {
+    margin-left: 7%;
+}
+.Naty2 {
+    margin-right: -2%;
+}
+@media (max-width: 767px) {    
+    .Naty{
+        margin-left: 10%;
+    }
+    .Naty2{
+        margin-right: -10%;
+    }
+    .Naty3{
+        margin-left: 10%;
+    }
 }
